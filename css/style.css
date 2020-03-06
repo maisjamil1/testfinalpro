@@ -1,0 +1,113 @@
+body{
+  background-color:#ddd;
+}
+#container{
+  width: 940px;
+  margin:20px auto;
+  background-color: #fff;
+  /* height: 1000px; */
+  
+}
+
+header{
+  min-height: 100px;
+  /* background-color: #aaa; */
+  overflow: hidden;
+}
+.logo{
+  width: 20%;
+}
+
+.logo img{
+  width: 90px;
+  margin:20px 20px 20px 5px;
+  float: left;
+}
+
+nav{
+  width: 80%;
+  float: right;
+}
+nav ul{
+  margin:50px 50px 0 450px;
+  font-size: 22px;
+  /* font-family */
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin:5px;
+ 
+}
+#slider{
+  overflow: hidden;
+  height:400px;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  /* height:50%; */
+  margin:0;
+  left: 0;
+  animation: 17s slider infinite;
+}
+#slider figure img{
+  width: 20%;
+  float: left;
+}
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+
+}
+
+
+
+
+
+#content{
+  height: 500px;
+  background-color: #bbb;
+  overflow: hidden;
+  /* /////////////////////// */
+
+}
+
+footer{
+  height: 100px;
+  background-color: #ccc;
+}
+
+
+#info{
+  height: 100px;
+  background-color: #ccc;
+}
+#copyright{
+  background-color: #333;
+  padding: 10px 0;
+  color: #999;
+  text-align: center;
+}

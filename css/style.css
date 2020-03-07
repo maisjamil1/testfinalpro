@@ -13,14 +13,17 @@ header{
   min-height: 100px;
   /* background-color: #aaa; */
   overflow: hidden;
+  position: relative;
+  z-index: 3;
 }
+
 .logo{
   width: 20%;
 }
 
 .logo img{
-  width: 90px;
-  margin:20px 20px 20px 5px;
+  width: 70px;
+  margin:5px 20px 20px 5px;
   float: left;
 }
 
@@ -29,7 +32,7 @@ nav{
   float: right;
 }
 nav ul{
-  margin:50px 50px 0 450px;
+  margin:30px 50px 0 450px;
   font-size: 22px;
   /* font-family */
 }
@@ -39,9 +42,19 @@ nav ul li {
   margin:5px;
  
 }
+nav ul li:hover{
+  color: white;
+  background-color: rgba(90, 90, 90, 0.568);
+}
+
+  
 #slider{
+  position: absolute;
+  bottom: 70px;
   overflow: hidden;
-  height:400px;
+  height:500px;
+  z-index: 1;
+
 }
 #slider figure {
   position: relative;
